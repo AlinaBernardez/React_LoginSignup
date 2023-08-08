@@ -1,0 +1,45 @@
+.home_box {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.home_title {
+    margin-bottom: 2rem;
+}
+
+.home {
+    box-sizing: border-box;
+    border: solid 3px rgb(100,108,255);
+    padding: 3rem;
+    height: auto;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.685);
+    border-radius: 15px;
+}
+
+.home_btn {
+    padding: 0.3rem;
+    border: solid 2px rgb(100,108,255);
+    border-radius: 5px;
+    width: 100%;
+    transition: 0.6s;
+}
+.home_btn:hover {
+    background: white;
+    transition: 0.6s;
+}
+
+.home_link {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(100,108,255);
+}
