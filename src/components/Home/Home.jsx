@@ -16,7 +16,7 @@ export function Home() {
                     <Link to="/signup" className="home_link">Register</Link>
                 </div>
             </div>
-            <h2 className="home_title">Please login o create new account.</h2>
+            <h2 className="home_title">Please login or create new account.</h2>
         </div>
     )
 }
