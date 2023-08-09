@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+.welcome {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome_box {
+    margin: 0 auto;
+    width: 40%;
+    padding: 2rem;
+}
+
+.welcome_title {
+    font-family: 'Rock Salt', cursive;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.welcome_btn {
+    width: 65%;
+    border: solid 2px rgb(100,108,255);
+}
